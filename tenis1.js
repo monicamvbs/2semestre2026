@@ -2,7 +2,7 @@ const imagemPrincipal = document.getElementById("imagemPrincipal");
 const lupa = document.getElementById("lupa");
 const container = document.getElementById("magnifierContainer");
 const zoom = 2.5;
-const lupaSize = 140;
+const lupaSize = 110;
 
 function trocarImagem(src) {
     imagemPrincipal.src = src;
